@@ -2,7 +2,7 @@
 
 # 게시판 프로젝트
 
-이 프로젝트는 Java와 Spring Boot를 사용하여 간단한 **게시판 기능**을 구현한 연습 프로젝트입니다. 주요 기능으로는 **게시글 작성**, **삭제**, **수정**, **파일 업로드**, **검색** 기능이 포함되어 있습니다.
+이 프로젝트는 Java와 Spring Boot를 사용하여 간단한 **게시판 기능**을 구현한 연습하고 싶어서 만든 프로젝트입니다. 주요 기능으로는 **게시글 작성**, **삭제**, **수정**, **파일 업로드**, **검색** 기능이 포함되어 있습니다.
 
 ---
 
@@ -14,39 +14,6 @@
 - **Thymeleaf**: 서버 사이드 템플릿 엔진
 - **Lombok**: 코드 간소화를 위한 라이브러리
 - **HTML & CSS**: 프론트엔드 디자인
-- **Bootstrap** (옵션, 필요시 UI 개선)
-
----
-
-## 📂 프로젝트 구조
-'''
-src
-├── main
-│   ├── java
-│   │   └── com.taehun.board
-│   │       ├── controller        # 컨트롤러 계층
-│   │       │   └── BoardController.java
-│   │       ├── entity            # JPA 엔티티
-│   │       │   └── Board.java
-│   │       ├── repository        # 데이터베이스 레이어
-│   │       │   └── BoardRepository.java
-│   │       └── service           # 비즈니스 로직 계층
-│   │           └── BoardService.java
-│   ├── resources
-│   │   ├── static                # 정적 파일 (업로드된 파일 저장)
-│   │   │   └── files             # 업로드된 파일 저장 폴더
-│   │   └── templates             # Thymeleaf 템플릿 파일
-│   │       ├── boardlist.html    # 게시글 리스트 페이지
-│   │       ├── boardview.html    # 게시글 상세 페이지
-│   │       ├── boardwrite.html   # 게시글 작성 페이지
-│   │       ├── boardmodify.html  # 게시글 수정 페이지
-│   │       └── message.html      # 메시지 알림 페이지
-│   └── application.yml           # 애플리케이션 설정 파일
-├── test
-│   ├── java
-│   │   └── com.taehun.board      # 테스트 코드 작성 위치
-│   └── resources                 # 테스트 리소스
-└── pom.xml                        # Maven 프로젝트 설정 파일
 
 ---
 
